@@ -1,0 +1,33 @@
+.App {
+  padding: 5em;
+  text-align: center;
+  margin: auto;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+
+  width: clamp(20em, 40vw, 100vw);
+
+  button {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+#session-display {
+  grid-column: span 2;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.length {
+  display: flex;
+  flex-flow: column;
+
+  div button {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+}
